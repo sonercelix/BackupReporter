@@ -1,0 +1,6 @@
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\bin\Debug\BackupReporter.exe.config
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\bin\Debug\BackupReporter.exe
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\bin\Debug\BackupReporter.pdb
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\obj\Debug\BackupReporter.exe
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\obj\Debug\BackupReporter.pdb
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\obj\Debug\BackupReporter.csprojAssemblyReference.cache

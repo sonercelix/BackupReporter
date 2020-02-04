@@ -1,0 +1,5 @@
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\bin\Release\BackupReporter.exe.config
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\bin\Release\BackupReporter.exe
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\bin\Release\BackupReporter.pdb
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\obj\Release\BackupReporter.exe
+C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\obj\Release\BackupReporter.pdb

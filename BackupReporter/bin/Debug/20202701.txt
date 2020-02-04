@@ -1,0 +1,25 @@
+20200127082756|Uygulama başlatıldı
+20200127082758|C:\oracle\ dizinindeki son dosya bilgileri alınıyor.
+20200127082837|Uygulama başlatıldı
+20200127082838|C:\oracle\ dizinindeki son dosya bilgileri alınıyor.
+20200127083102|Uygulama başlatıldı
+20200127083105|C:\oracle\ dizinindeki son dosya bilgileri alınıyor.
+20200127083113|z.mp4 dosyası seçildi. Dosya oluşturulma tarihi: 08:30:31
+20200127083115|Rar işlemine geçildi.
+20200127083220|Rar işlemleri tamamlandı.
+20200127083238|Arşiv temizleme işlemi yapılıyor...
+20200127083752|Uygulama başlatıldı
+20200127083803|C:\oracle\ dizinindeki son dosya bilgileri alınıyor.
+20200127083803|z.mp4 dosyası seçildi. Dosya oluşturulma tarihi: 08:30:31
+20200127083808|Rar işlemine geçildi.
+20200127083855|Rar işlemleri tamamlandı.
+20200127083907|Mail gönderim işlemine geçildi.
+20200127083945|Mail gönderim işleminde hata oluştu. Detay:The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at    at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BackupReporter.Program.MailGonder(String file, Boolean isSuccess) in C:\Users\ext02d9351\source\repos\BackupReporter\BackupReporter\Program.cs:line 137
+20200127083947|Mail gönderim işlemleri tamamlandı.
+20200127083951|Arşiv temizleme işlemi yapılıyor...
+20200127084103|Arşiv temizleme işlemi tamamlandı.
+20200127084103|Uygulama bitti
