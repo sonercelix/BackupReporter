@@ -87,6 +87,9 @@ namespace BackupReporter
                     {
                         if (File.Exists(targetArchiveName))
                         {
+                            GC.Collect();
+                            GC.WaitForPendingFinalizers();
+
                             File.Delete(targetArchiveName);
                         }
                     }
@@ -171,11 +174,15 @@ namespace BackupReporter
                 startInfo.UseShellExecute = false;
                 startInfo.WindowStyle = ProcessWindowStyle.Maximized;
                 startInfo.Arguments = string.Format(" a -r -ep \"{0}\" \"{1}\"", targetArchiveName, targetFile);
+                startInfo.RedirectStandardError = true;
+                startInfo.RedirectStandardOutput = true;
 
                 using (Process exeProcess = Process.Start(startInfo))
-                {
+                {                    
                     exeProcess.WaitForExit();
+                    Log("ExitCode: " + exeProcess.ExitCode.ToString());
                     exeProcess.Close();
+                    exeProcess.Dispose();
                 }
             }
             catch (Exception ex)
